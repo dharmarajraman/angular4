@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "node dist/main.bundle.js"
+  },
+  "engines": {
+    "node": "7.1.0",
+    "npm" : "4.4.4"
   },
   "private": true,
   "dependencies": {
